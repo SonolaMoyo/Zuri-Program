@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./profile picture.jpg" alt="pic" class="profile-pic">
+        <nav>
+            <ul>
+                <li><a href="./aboutme.html">About Me</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+                <li><a href="./login.html">Log In</a></li>
+                <li><a href="./registration.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contactPage" style="display: block;">
+            <div><h4>Send me a message</h4></div>
+            <div>
+                <table>
+                    <form action="./contact.html" method="get" enctype="multipart/form-data">
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" required id="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" required id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><textarea name="" placeholder="Send me a message" id="" cols="30" rows="10" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Send"></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

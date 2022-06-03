@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    margin-top: 50px;
+    background-color: #e8e7de;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+header ul{
+    padding: 0;
+}
+header li{
+    margin-left: 20px;
+}
+section {
+    height: --;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 20px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#aboutme .profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}
+section h1{ font-size: 3em;}
+section h2{ font-size: 2.5em;}
+section h3{font-size: 1.5em;}
+header a{
+    text-decoration: none;
+    color: black;
+}
+#aboutme {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+#contactPage {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
+#signup, #login {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+}
+footer button{
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
