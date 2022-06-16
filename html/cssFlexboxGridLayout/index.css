@@ -1,0 +1,46 @@
+*{
+}
+
+main{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col1, .col2, .col3 {
+    margin-top: 50px;
+    height: 350px;
+    width: 200px;
+    padding: 3em;
+    color: white;
+}
+
+.col1 {
+    background-color: #e28525;
+}
+
+.col2 {
+    background-color: #016972;
+}
+
+.col3 {
+    background-color: #00403f;
+}
+
+.btn {
+    border-radius: 50px;
+    height: 40px;
+    width: 150;
+    border: none;
+    font-weight: 200;
+}
+
+.title {
+    font-size: 3em;
+}
+
+
