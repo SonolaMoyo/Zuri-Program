@@ -1,0 +1,46 @@
+*{
+    background-color: #1a1c28;
+    padding: 80px;
+
+}
+
+main{
+    display: grid;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+    grid-template-areas:
+    'a a a b b'
+    'a a a b b'
+    'e e c c c'
+    'e e d d d'
+    ;
+}
+
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item-a{
+    background-color: #eb5020;
+    grid-area: a;
+}
+
+.item-b{
+    background-color: #ffa401;
+    grid-area: b;
+}
+.item-c{
+    background-color: #0987bf;
+    grid-area: c;
+}
+.item-d{
+    background-color: #0987bf;
+    grid-area: d;
+}
+.item-e{
+    background-color: #05aa42;
+    grid-area: e;
+}
