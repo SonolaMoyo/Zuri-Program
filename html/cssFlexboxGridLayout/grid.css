@@ -1,7 +1,7 @@
 *{
     background-color: #1a1c28;
     padding: 80px;
-
+    box-sizing: border-box;
 }
 
 main{
