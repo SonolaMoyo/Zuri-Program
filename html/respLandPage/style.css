@@ -1,0 +1,5 @@
+header{
+    background-color: url(./img/bg-hero-desktop.svg);
+    background-repeat: repeat;
+    display: flex;
+}
