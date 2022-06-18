@@ -1,0 +1,4 @@
+Tasks completed
+
+ - ...
+ - Django Models
